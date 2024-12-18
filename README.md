@@ -1,13 +1,19 @@
-# Mistral RAG Chatbot
+# Adhyatma: Guidance for Mental Health and Spirituality 🌟
 
-A chatbot leveraging a pre-trained Mistral model for custom document-based Q&A.
-## Setup
-1. Clone the repository.
-2. Install dependencies using `pip install -r requirements.txt`.
-3. Place your documents in the `docs/` folder.
-4. Run the chatbot using your pre-trained model.
+## Overview
+This project implements a chatbot designed to provide thoughtful guidance on mental health, spirituality, self-care, and meditation. The chatbot uses a Retrieval-Augmented Generation (RAG) pipeline with fine-tuned models for generating responses based on relevant documents.
 
-## Example Usage
-```bash
-python bot/chatbot.py --model-path path/to/mistral-model
-```
+---
+
+## Features
+- **Document Retrieval**: Uses FAISS and SentenceTransformer for efficient retrieval of the most relevant documents.
+- **Fine-tuned GPTQ Model**: Generates responses based on user queries and retrieved contexts.
+- **Interactive Gradio Interface**: Provides an easy-to-use web-based platform for interaction.
+
+---
+
+## Installation
+The required dependencies are provided in the notebook.
+
+---
+
